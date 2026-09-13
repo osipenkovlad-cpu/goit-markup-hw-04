@@ -1,47 +1,46 @@
+/* ВИПРАВЛЕНО: Шлях до фонового зображення вказує на hero-bg.jpg */
 .hero {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 188px 0;
-  text-align: center;
   background-color: #2e2f42;
+  padding: 188px 0;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/hero-bg.jpg"); /* Перевір точну назву файлу картинки у вашій папці images (наприклад, hero-bg.jpg чи dark-bg.jpg) */
+    url("../images/hero-bg.jpg");
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
+}
+
+.hero-container {
+  text-align: center;
 }
 
 .hero-title {
-  max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 48px;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto 48px auto;
 }
 
 .hero-btn {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 16px 32px;
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4d5ae5;
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

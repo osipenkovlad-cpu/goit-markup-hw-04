@@ -1,16 +1,15 @@
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .portfolio-main-title {
-  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -25,12 +24,13 @@
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* ВИПРАВЛЕНО: Встановлено точні значення box-shadow з ТЗ */
 .portfolio-item:hover,
-.portfolio-item:focus-within {
+.portfolio-item:focus {
   box-shadow:
-    0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-thumb {
@@ -55,7 +55,7 @@
 }
 
 .portfolio-item:hover .portfolio-overlay,
-.portfolio-item:focus-within .portfolio-overlay {
+.portfolio-item:focus .portfolio-overlay {
   transform: translateY(0%);
 }
 
@@ -66,12 +66,12 @@
 }
 
 .portfolio-title {
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-category {
