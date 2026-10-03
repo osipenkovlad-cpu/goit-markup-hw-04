@@ -1,4 +1,3 @@
-/* BASICS & RESET */
 h1,
 h2,
 h3,
@@ -35,7 +34,6 @@ body {
   background-color: #ffffff;
 }
 
-/* Visually Hidden Pattern */
 .visually-hidden,
 .sr-only {
   position: absolute;
@@ -50,7 +48,6 @@ body {
   overflow: hidden;
 }
 
-/* Reusable Components */
 .container {
   width: 1158px;
   padding-left: 15px;
