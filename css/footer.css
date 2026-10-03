@@ -3,13 +3,11 @@
   padding: 100px 0;
 }
 
-/* Контейнер для вирівнювання блоків футера в один рядок */
-.footer .container {
+.footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
-/* Блок з логотипом та текстом */
 .footer-info {
   margin-right: 120px;
 }
@@ -38,7 +36,6 @@
   color: #f4f4fd;
 }
 
-/* Блок соціальних мереж */
 .footer-social-title {
   margin-bottom: 16px;
   font-weight: 500;
