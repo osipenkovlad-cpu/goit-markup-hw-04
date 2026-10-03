@@ -27,7 +27,6 @@
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* ВИПРАВЛЕНО: padding становить 32px зверху/знизу та 16px зліва/справа */
 .team-info {
   padding: 32px 16px;
   text-align: center;
